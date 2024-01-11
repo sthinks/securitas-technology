@@ -1,0 +1,21 @@
+.solution-inner-item_line {
+    height: 1px;
+    background-color: gray;
+}
+
+.solution-inner-item-detail_list-item {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.product-detail_list-title {
+    color: #55419e;
+}
+
+.product-detail_list li {
+    list-style: none;
+    display: flex;
+    padding: 15px 0px;
+    border-top: 1px solid #55419e;
+    justify-content: space-between;
+}

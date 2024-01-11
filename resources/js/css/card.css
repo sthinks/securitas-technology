@@ -1,0 +1,41 @@
+/* CardStyles.css */
+
+.border-4 {
+    border-width: 4px;
+}
+
+.border-55419e-card {
+    border: 4px solid #55419e;
+}
+
+.bg-55419e {
+    background-color: #55419e;
+}
+
+.w-15 {
+    width: 16%;
+}
+
+.h-80 {
+    height: 6rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-3rem {
+    font-size: 3rem;
+}
+
+.text-55419e {
+    color: #55419e;
+}
+
+.text-fff {
+    color: #fff;
+}

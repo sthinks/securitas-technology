@@ -1,0 +1,123 @@
+.career-image-container {
+    position: relative;
+}
+
+.career-image-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.career-image-title_first {
+    width: 17%;
+}
+
+.career-image-title_second {
+    width: 26%;
+}
+
+.career-image-title_second p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.career-image-title_third {
+    width: 31%;
+}
+
+.career-image-title_third p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+.career-apply {
+    position: relative;
+}
+
+.career-apply-inner {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.career-apply-inner-item {
+    width: 35%;
+}
+
+.career-apply-button {
+    background-color: #55419e;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .career-image-text-inner .container .row .col-md-12 {
+        display: inline-flex;
+        margin-top: 0px !important;
+    }
+
+
+    .career-image-title_first h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.7rem;
+    }
+
+    .career-image-title_second p {
+        display: none;
+    }
+
+    .career-image-title_first {
+        width: 100%;
+    }
+
+    .career-image-title_first span {
+        font-size: 1.3rem !important;
+    }
+
+    .career-image-title_third p {
+        display: none;
+    }
+
+    .career-image-container {
+        margin-top: 25px;
+    }
+
+    .career-triple {
+        margin-top: 25px;
+    }
+
+    .career-apply-inner-item {
+        width: 70%;
+    }
+
+    .career-apply-inner-item h2 {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+
+    .career-apply-inner-item div {
+        margin-top: 0.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .career-image-title_first {
+        width: 100%;
+    }
+
+    .career-image-title_second {
+        width: 80%;
+    }
+
+    .career-image-title_third {
+        width: 80%;
+    }
+
+}

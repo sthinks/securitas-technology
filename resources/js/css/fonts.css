@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "securitas-bold";
+    src: url("../fonts/SecuritasPro-Bold.woff") format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "securitas-bold-italic";
+    src: url("../fonts/SecuritasPro-BoldItalic.woff") format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "securitas-light";
+    src: url("../fonts/SecuritasPro-Light.woff") format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "securitas-light-italic";
+    src: url("../fonts/SecuritasPro-LightItalic.woff") format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "securitas-regular";
+    src: url("../fonts/SecuritasPro-Regular.woff") format('woff2');
+}
+@font-face {
+    font-family: "securitas-regular-italic";
+    src: url("../fonts/SecuritasPro-RegularItalic.woff") format('woff2');
+}
+

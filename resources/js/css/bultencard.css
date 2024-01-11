@@ -1,0 +1,91 @@
+.bultenler-container {
+    padding: 50px 0px;
+    border-bottom: 1px solid #031f30;
+}
+
+.bulten-card {
+    margin-bottom: 50px;
+}
+
+.bulten-card_category {
+    border-radius: 50px;
+    padding: 6px 15px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    background-color: #031f30 !important;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.bulten-card_title {
+    color: #031f30 !important;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 20px !important;
+}
+
+.bulten-card_description {
+    color: #031f30;
+}
+
+.bulten-card_hashtag {
+    color: #031f30;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.bulten-card_bottom {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bulten-card_click {
+    color: #031f30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bulten-card_click-text {
+    font-weight: 700;
+}
+
+.bulten-card_image {
+    width: 100%;
+    height: 100%
+}
+
+.bulten-card_image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bulten-card_right {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.bulten-card_right::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+.bulten-card_right::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+.bulten-card_right::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.bulten-card_right::-webkit-scrollbar-thumb:hover {
+    background: #55419e;
+}

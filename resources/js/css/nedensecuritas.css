@@ -1,0 +1,31 @@
+.neden-securitas_container {
+    position: relative;
+}
+
+.neden-securitas_text {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.why-securitas_questions {
+    color: white !important;
+    padding: 2rem 1.25rem;
+    border-top: 1px solid #C4C4C4;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.why-securitas_answer li {
+    color: white !important;
+    margin-bottom: 7px !important;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .neden-securitas_text {
+        position: absolute;
+        left: 5%;
+        top: 15%;
+    }
+}

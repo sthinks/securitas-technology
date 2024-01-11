@@ -1,0 +1,192 @@
+.homebanner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slider-self {
+    position: relative !important;
+}
+
+.slider-self_text {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    flex-direction: column;
+}
+
+.slider-self_left p {
+    line-height: 3.1rem;
+}
+
+
+.slider-self_left {
+    width: 35%;
+}
+
+.slider-self_left2 {
+    width: 100%;
+}
+
+.slider-self_left2 p {
+    line-height: 3.1rem;
+}
+
+
+.slider-self_left3 {
+    width: 100%;
+}
+
+.slider-self_left3 p {
+    line-height: 3.1rem;
+}
+
+.slider-self_left4 {
+    width: 42%;
+}
+
+.slider-self_left4 p {
+    line-height: 3.1rem;
+
+}
+
+.slider-self_text p {
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+.slider-self_description {
+    display: flex;
+    width: 49%;
+    align-items: center;
+}
+
+.slider-self_description p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.homebanner {
+    position: relative;
+}
+
+.homebanner_inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 100px 0px;
+}
+
+.homepage-inner-title {
+    font-weight: 700;
+}
+
+.homebanner .slick-slider .slick-prev {
+    position: absolute !important;
+    left: 2% !important;
+    z-index: 999 !important;
+}
+
+.homebanner .slick-slider .slick-prev:before {
+    font-size: 30px !important;
+}
+
+.homebanner .slick-slider .slick-next::before {
+    font-size: 30px !important;
+}
+
+.homebanner .slick-slider .slick-next {
+    display: block !important;
+    position: absolute !important;
+    right: 2% !important;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+
+    .slider-self_description {
+        width: 70%;
+    }
+
+    .slider-self_text {
+        left: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .homebanner_inner {
+        padding: 0px 0px;
+    }
+
+    .homepage-inner_sub-title {
+        display: none;
+    }
+
+    .homepagesection_second {
+        margin-top: 20px;
+    }
+
+    .slider-self_text p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .slider-self_left4 p {
+        line-height: 1.1rem;
+    }
+
+    .slider-self_left3 p {
+        line-height: 1.1rem;
+    }
+
+    .slider-self_left2 p {
+        line-height: 1.1rem;
+    }
+
+    .slider-self_left p {
+        line-height: 1.1rem;
+    }
+
+    .slider-self_text {
+        left: 3%;
+        top: 5%;
+        flex-direction: row;
+    }
+
+    .slider-logo {
+        width: 50px !important;
+        margin-top: 0.6rem;
+    }
+
+    .slider-self_description p {
+        line-height: 1rem;
+        font-size: 9px;
+    }
+
+    .slider-self_description {
+        margin-top: 0px !important;
+    }
+
+    .homebanner .slick-slider .slick-prev {
+        position: absolute !important;
+        left: 1% !important;
+        z-index: 999 !important;
+    }
+
+    .homebanner .slick-slider .slick-prev:before {
+        font-size: 20px !important;
+    }
+
+    .homebanner .slick-slider .slick-next::before {
+        font-size: 20px !important;
+    }
+
+    .homebanner .slick-slider .slick-next {
+        display: block !important;
+        position: absolute !important;
+        right: 1% !important;
+    }
+
+}

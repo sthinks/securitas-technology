@@ -1,0 +1,19 @@
+.breadcrumb {
+    padding: 17px 0px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.bread-item {
+    text-decoration: underline;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: none !important
+}
+
+@media only screen and (max-width: 480px) {
+    .bread-item {
+        font-size: 13px;
+    }
+}

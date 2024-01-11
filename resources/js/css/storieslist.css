@@ -1,0 +1,23 @@
+.stories-list {
+    list-style: none;
+}
+
+.stories-list li {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 7px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.react-tabs__tab--selected {
+    background-color: #55419e !important;
+    color: white !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+.stories-list-text {
+    background-color: white;
+}

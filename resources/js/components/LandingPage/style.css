@@ -1,0 +1,477 @@
+
+.landing-btn{
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    width: 185px;
+    height: 63px;
+    color: black;
+    font-weight: 500;
+    background-color: #AE97FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.landing-btn:hover{
+    animation-duration: 500ms;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    width: 185px;
+    height: 63px;
+    color: black;
+    background-color: #9977FE;
+}
+.banner-text-space{
+    height: 466px; 
+    padding: 2.5rem 6.875rem;
+}
+.container-lan{
+     width: 1320px;
+     
+     margin-top: 2.5rem;
+     margin-bottom: 2.5rem;
+}
+/* Book line */
+.book-text-first{
+    line-height: 3rem;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.book-text-second{
+    padding: 0.9375rem 1.875rem 0.9375rem;
+    border-left: 0.1875rem solid #8D5FFF;
+        margin-bottom: 1.875rem;
+    line-height: 2rem;   
+    font-size: 1.3125rem;
+}
+.custom-list {
+    list-style: none;
+    padding: 0;
+    padding-left: 1rem;
+        margin-bottom: 2rem;
+}
+
+.custom-list li {
+    position: relative;
+    margin-bottom: 0.8rem;
+    font-size: 1.125rem;
+    line-height: 1.6875rem !important;
+
+}
+
+.custom-list li:before {
+    content: "";
+    background-image: url(./sec-purple-check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    top: 0.2rem;
+    margin-left: -1.5rem; /* Ayarladığımız paddingi düzeltmek için negatif margin ekliyoruz */
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    position: absolute;
+}
+.book-last-link{
+    display: flex;
+    margin-left: 10px;
+}
+
+.book-last-link a {
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+    padding-left: 0.5rem;
+        color: #6C47CF;
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-left: 5px;
+}
+.progress-first-text{
+    color: #404346;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.125rem;
+    font-weight: bold;
+    color: #404346;
+}
+.progress-second-text
+{
+    line-height: 3rem;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.progress-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 24%;
+    min-width: 24%;
+    font-size: 0.9375rem;
+    padding: 0 1.875rem;
+}
+.progress-item p {
+    margin-top: 10px;
+    color: #031F30;
+    font-size: 0.9375rem;
+}
+.progress-last-text{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #031F30;
+    margin-top: 3.5rem;
+}
+.progress-last-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.progress-last-btn p {
+    padding-left: 0.5rem;
+        color: #6C47CF;
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-left: 10px;
+}
+.president-text{
+    text-align: left;
+    font-size: 2.25rem;
+    line-height: 2.4375rem;
+}
+
+.progress-last-btn-president{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.progress-last-btn-president p {
+    padding-left: 0.5rem;
+        color: #6C47CF;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 5px;
+}
+.president-image{
+    padding-right: 1.25rem;
+    border-right: 1px solid #D7D8D6;
+    margin-right: 1.25rem;
+ 
+}
+.president-content{
+        margin-top: 4.5rem;
+}
+.landing-video{
+    height: 602px;
+    width: 1070px;
+}
+
+.landing-link-card {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.landing-link-card:hover {
+    transition: 1s;
+    animation-duration: 500ms;
+    border-bottom: 1px solid black;
+}
+.landing-link-card .book-last-link p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.landing-link-card:hover .book-last-link p {
+    color: black;
+}
+.landing-page-last-card{
+    width: 100%;
+    background-color: #031f30;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5rem 6.875rem;
+    text-align:left;
+}
+.landing-page-last-left{
+       min-width: unset;
+    max-width: 56.25rem;
+    padding-right: 10.875rem;
+}
+.landing-page-last-left p:nth-child(1) {
+    color: white;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.landing-page-last-left p:nth-child(2) {
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6875rem;
+}
+.trending-top-text{
+    margin-bottom: 4rem;
+}
+.trending-top-text p:nth-child(1){
+    margin-bottom: 2rem;
+    font-size: 2.8125rem;
+    font-weight: 700;    
+    line-height: 3rem;
+}
+.trending-top-text p:nth-child(2){
+    
+    font-size: 1.125rem;
+ 
+}
+.selected-trend-item{
+    
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    border-left: 2.5px solid #AE97FD;
+    padding-bottom: 1.625rem;
+    padding: 1.25rem 0 1.15625rem 1.875rem;
+    transition: all 0.3s ease 0s;
+}
+.noselected-trend-item{
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    opacity: 0.5;
+    border-left: 2.5px solid #172F48;
+      padding-bottom: 1.625rem;
+    padding: 1.25rem 0 1.15625rem 1.875rem;
+    transition: all 0.3s ease 0s; 
+}
+.puprle-sector{
+    height: auto;
+    width: 100%;
+    background-color: #031f30;
+}
+.purple-sector-left{
+    flex: 1 1 50%;
+    max-width: 32.625rem;
+}
+.purple-sector-right{
+       flex: 1 1 50%;
+       display: flex;
+       justify-content: end;
+}
+.purple-sector-container{
+    padding: 10rem 0px;
+    
+}
+.first-image-book{
+    padding-left: 2.1875rem;
+}
+.trend-item-desc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.kesfet-item:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}
+.kesfet-item-report{
+       padding-left: 0.5rem;
+    color: #6C47CF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.kesfet-item-report:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+    color: black !important;
+}
+.progress-last-btn-trend{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.progress-last-btn-trend p {
+    padding-left: 0.5rem;
+        color: #9977FE;
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-left: 10px;
+}
+.first-sector{
+    max-width: 32.5rem;
+}
+.president-main-content{
+    height: 120vh;
+    background-color: #f7f7f7;
+}
+
+.banner-text-landing{
+    font-size:4.6875rem;
+    line-height:4.6875rem;
+    font-weight: 700;
+}
+@media screen and (max-width: 992px) {
+    .mobil-first {
+        flex-direction: column-reverse !important;
+    }
+    .mobil-second {
+        flex-direction: column !important;
+        gap: 2rem;
+    }
+    .purple-sector-left {
+        max-width: none;
+        width: 100%;
+        padding: 10px; 
+    }
+    .first-sector{
+        max-width: none;
+        width: 100%;
+        padding: 5px;
+    }
+    .purple-sector-container {
+        padding: 0rem 0px;
+    }
+    .progres-content{
+        flex-direction: column;
+    }
+    .progress-item {
+        margin-top: 10px;
+        max-width: 100%;
+        min-width: 100%;
+        
+    }
+    .president-text{
+        padding: 0px 20px;
+    }
+    .container-lan {
+        width: 100%;
+    }
+    .president-content{
+        padding: 0px 20px;
+    }
+    .progress-second-text
+    {
+        text-align: center;
+        padding: 0px 10px;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        font-size: 1.6875rem;
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
+    }
+    .president-main-content{
+        height: 100%;
+        background-color: #f7f7f7;
+    }
+    .landing-video {
+        height: auto;
+        width: 100%;
+    }
+    .landing-last-card-container{
+        flex-direction: column !important;
+        padding: 10px;
+    }
+    .purple-sector-right img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+    .book-image-content{
+          display: block;
+        max-width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+    .landing-page-last-card {
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1.875rem;
+    }
+    .landing-page-last-left {
+        max-width: none; 
+        padding-right: 0rem;
+    }
+    .landing-page-last-left p:nth-child(1) {
+        color: white;
+        font-size: 1.6875rem;
+        line-height: 2.25rem;
+    }
+    .landing-page-last-left p:nth-child(2) {
+        font-size: 1rem;
+    }
+    .president-text{
+        font-size: 1.375rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .about-us-text-second{
+            font-size: 1rem;
+    line-height: 1.5rem;
+        color: #031F30;
+    }
+    .banner-text-landing{
+        font-size: 2rem;
+        line-height: 2.625rem;
+        font-weight: 700;
+    }
+    .book-text-first
+    {
+               font-size: 1.6875rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+        padding: 10px;
+    }
+    .banner-text-space {
+        height: 530px;
+        padding: 2.5rem 0.875rem;
+    }
+    .book-text-second{
+        font-size: 1rem;
+     line-height: 1.5rem;
+    }
+    .custom-list li {
+         font-size: 1rem;
+     line-height: 1.5rem;
+    }
+    .first-image-book{
+        padding-left: 0px;
+    }
+    .trending-top-text p:nth-child(1){
+        font-size: 1.6875rem;
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
+    }
+    .trending-top-text p:nth-child(2){
+        font-size: 1rem;
+    line-height: 1.5rem;
+    }
+    .trend-item-desc{
+            font-size: 0.875rem !important;
+    line-height: 1.3125rem !important;
+    }
+    .selected-trend-item{
+        font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    }
+}
+
+

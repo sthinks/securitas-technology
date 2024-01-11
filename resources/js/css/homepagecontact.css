@@ -1,0 +1,17 @@
+.homecontact-button_container button {
+    border-radius: 0px !important;
+    color: white !important;
+    font-weight: 400 !important;
+    padding: 0.575rem 1rem !important;
+    border: none !important;
+}
+
+.homecontact {
+    background-image: url('../images/banner/contact-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}

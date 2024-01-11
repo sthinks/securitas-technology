@@ -1,0 +1,37 @@
+.homepage-slider-image {
+    width: 100%;
+    height: auto;
+}
+
+.homepage-slider_image-container {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .homepage-slider-image {
+        width: 265px;
+        height: 260px
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1600px) {
+    .slider-main_container .slick-arrow {
+        display: none !important;
+    }
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: gray !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .slider-main_container {
+        padding: 0px 40px;
+        margin-top: 0px !important;
+    }
+
+    .homepage-slider_image-container {
+        text-align: -webkit-center;
+    }
+}

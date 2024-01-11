@@ -1,0 +1,105 @@
+.customers-question-box {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    right: 60px;
+    bottom: -40px;
+    border-bottom-right-radius: 10px;
+    border-top: 40px solid #55419e;
+    border-left: 40px solid white;
+}
+
+.customer-three-word {
+    background: #55419e;
+    padding: 10px 85px 10px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+}
+
+.referances-slider-container {
+    border: 2px solid gray;
+    padding: 57px;
+}
+
+.referances-slider-inner {
+    height: 240px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid gray;
+    padding-right: 74px;
+}
+
+.slider-line {
+    height: 240px;
+    background-color: gray;
+    width: 1px;
+}
+
+
+.menu-items {
+    height: 350px;
+    overflow: auto;
+}
+
+.referance-btn {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.referance-btn:focus {
+    background-color: #55419e;
+    color: white;
+}
+
+.main-title p {
+    margin: 10px 0px;
+}
+
+.main-title p {
+    font-weight: 600;
+    color: #031f30;
+}
+
+.menu-items::-webkit-scrollbar {
+    width: 11px;
+}
+
+.menu-items::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.menu-items::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 6px;
+    border: 3px solid gray;
+}
+
+.referances {
+    width: 75% !important;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .referances {
+        width: 85% !important;
+    }
+
+    .referances-slider-container {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .referances-slider-container {
+        margin-top: 45px;
+    }
+
+    .referances-slider {
+        padding: 0px 30px;
+    }
+}

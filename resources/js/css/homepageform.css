@@ -1,0 +1,83 @@
+.homepageform-description {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.homepageform-img {
+    width: 100%;
+}
+
+
+.sensormatic-form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sensormatic-form button {
+    border: none;
+}
+
+.form-item {
+    position: relative;
+}
+
+.form-item p {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    font-weight: 600;
+}
+
+.sensormatic-form select {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    height: 80px;
+    padding-left: 2px;
+    padding-top: 25px;
+}
+
+.sensormatic-form textarea {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    height: 80px;
+    padding-left: 6px;
+    padding-top: 35px;
+}
+
+.sensormatic-form input {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    height: 80px;
+    padding-left: 6px;
+    padding-top: 25px;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .sensormatic-form .col-12 {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .formik-form {
+        margin-top: 25px;
+    }
+
+    .sensormatic-form input {
+        margin-bottom: 10px;
+    }
+
+    .sensormatic-form textarea {
+        margin-bottom: 10px;
+    }
+
+    .sensormatic-form select {
+        margin-bottom: 10px;
+    }
+}

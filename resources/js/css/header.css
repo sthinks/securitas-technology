@@ -1,0 +1,241 @@
+.navbar {
+    flex-direction: column !important;
+}
+
+.bottom-navbar .navbar-nav {
+    margin-right: auto;
+}
+
+.bottom-navbar .navbar-nav .nav-link {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 20px !important;
+    margin-right: 20px;
+}
+
+.bottom-navbar .navbar-nav a:hover {
+    text-decoration: none !important;
+}
+
+.navbar-brand:hover {
+    text-decoration: none !important;
+}
+
+.bottom-navbar .navbar-nav .nav-link svg {
+    margin-left: 10px;
+}
+
+.top-navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.top-navbar .navbar-nav a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    color: #55419e !important;
+    margin-left: 10px;
+}
+
+.top-navbar .navbar-nav a:hover {
+    text-decoration: none;
+}
+
+.navbar-contact-button {
+    color: white !important;
+    font-weight: 400 !important;
+    padding: 0.575rem 1rem !important;
+    border: none !important;
+    border-radius: 22px !important;
+}
+
+.top-navbar .navbar-nav svg {
+    margin-left: 10px;
+    color: #55419e !important;
+}
+
+.securitas-tech {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black;
+    padding-left: 0px !important;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+
+.bottom-navbar {
+    border-top: 1px solid #031f30;
+    margin-left: 80px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.bottom-navbar_icons svg {
+    color: #031f30;
+    font-size: 25px;
+}
+
+.bottom-navbar_world {
+    border-right: 1px solid #031f30;
+    margin-right: 10px;
+    padding: 7px;
+}
+
+.bottom-navbar_search {
+    margin-right: 20px;
+}
+
+.bottom-navbar_world_search {
+    margin-right: 15px;
+}
+
+.mobile-topbar-item {
+    display: none;
+}
+
+.navbar-searchbar {
+    display: block;
+}
+
+.search-container {
+    padding: 20px 0px;
+}
+
+.search-container svg {
+    color: #031f30;
+    font-size: 25px;
+}
+
+.input-group-text {
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px !important;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-bottom: 1px solid #031f30;
+}
+
+.search-container_result {
+    padding-left: 30px;
+}
+
+.search-container_result li {
+    list-style: none;
+    margin: 0px;
+}
+
+.navbar-list {
+    padding: 20px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+.navbar-list_container li {
+    list-style: none;
+    margin: 0px;
+    color: #031f30;
+}
+
+.navbar-list_container h4 {
+    color: #031f30;
+}
+
+.self-bottom-container {
+    align-items: flex-start !important;
+}
+
+.securitas-logo-top {
+    position: absolute !important;
+    bottom: 25% !important;
+}
+
+.mobil-logo {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .dropdown-menu {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .self-bottom-container .navbar-brand {
+        margin-top: 0px !important;
+    }
+
+    .top-navbar-container {
+        display: none !important;
+    }
+
+    .bottom-navbar {
+        border: none !important;
+        margin-left: 0px !important;
+    }
+
+    .mobile-topbar-item {
+        display: block;
+        color: white !important;
+    }
+
+    .navbar {
+        background-color: #031f30;
+        border-bottom: 1px solid white;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link a {
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .bottom-navbar_search svg {
+        color: white;
+    }
+
+    .self-bottom-container {
+        align-items: center !important;
+    }
+
+    .securitas-logo-href {
+        display: flex;
+    }
+
+    .navbar-nav a:visited {
+        color: white !important;
+    }
+
+    .dropdown-menu a:visited {
+        color: #031f30 !important;
+    }
+
+    .mobil-logo {
+        display: block;
+    }
+}

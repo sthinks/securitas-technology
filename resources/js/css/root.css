@@ -1,0 +1,303 @@
+body {
+        font-family: "securitas-regular";
+        color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        margin: 0 0;
+}
+
+ul li {
+        color: #031F30 !important;
+}
+
+h1 {
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 40px;
+        line-height: 2.5rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 700;
+}
+
+h2 {
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 40px;
+        line-height: 2.5rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 700;
+}
+
+h3 {
+        font-size: 1.8125rem;
+        line-height: 31px;
+        line-height: 1.9375rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 600;
+}
+
+h4 {
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 32px;
+        line-height: 2rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 700;
+}
+
+h5 {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 24px;
+        line-height: 1.5rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 600;
+}
+
+h6 {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 22.4px;
+        line-height: 1.4rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 400;
+}
+
+p {
+        margin: 0 0;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 400;
+}
+
+ul {
+        margin: 0 0 0 8px;
+        padding: 0 0;
+        max-width: 100%;
+}
+
+ul li {
+        margin: 0 0 0 8px;
+        padding: 0 0;
+        color: #5f616c;
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 28px;
+        line-height: 1.75rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 400;
+}
+
+.button-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 178px;
+        height: 40px;
+        color: #031F30;
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 12px;
+        line-height: 0.75rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background-color: #92c3e2;
+        border: 0;
+        cursor: pointer;
+        transition: color 0.3s, background-color 0.3s;
+}
+
+.button-type:hover {
+        color: #92c3e2;
+        background-color: #031F30;
+}
+
+.button-type.-purple {
+        color: #fff;
+        font-size: 11px;
+        font-size: 0.6875rem;
+        line-height: 11px;
+        line-height: 0.6875rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        background-color: #7b3d97;
+}
+
+.button-type.-purple:hover {
+        background-color: #9245b5;
+}
+
+.button-type.-aqua {
+        color: #fff;
+        font-size: 11px;
+        font-size: 0.6875rem;
+        line-height: 11px;
+        line-height: 0.6875rem;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        background-color: #7ebce3;
+}
+
+.button-type.-aqua:hover {
+        background-color: #63bff9;
+}
+
+.button-type.-search {
+        width: 55px;
+        height: 100%;
+        background-color: #6ebde9;
+}
+
+.button-type.-search:hover {
+        background-color: #222d65;
+}
+
+.title {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #122a44;
+        font-weight: 400;
+        background-color: #fff;
+}
+
+a {
+        transition: .3s ease;
+        color: #031F30;
+        text-decoration: none;
+        line-height: 160%;
+}
+
+a:hover,
+a:visited {
+        text-decoration: underline;
+        color: #031F30;
+}
+
+.section-padding {
+        padding-top: 35px;
+        padding-bottom: 35px;
+}
+
+.line {
+        background-color: gray;
+        height: 2px;
+}
+
+#popup {
+        display: none;
+        position: fixed;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 50px 2px #000;
+        z-index: 999999;
+}
+
+#popup img {
+        width: 750px;
+}
+
+#close {
+        padding: 4px 4px 4px 4px;
+        border: none;
+        font-size: 25px;
+        color: #005ab4;
+        cursor: pointer;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+}
+
+@media (max-width: 992px) {
+        #popup {
+                top: 255px;
+                width: 350px;
+                height: auto;
+        }
+
+        #popup>img {
+                width: 350px !important;
+                height: auto;
+        }
+
+        #close {
+                padding: 4px 4px 4px 4px;
+                border: none;
+                font-size: 15px;
+                color: #005ab4;
+                cursor: pointer;
+                top: 0px;
+                right: 0px;
+                position: absolute;
+        }
+}
+
+@media only screen and (max-width: 480px) {
+        h1 {
+                font-size: 1.875rem;
+        }
+
+        h2 {
+                font-size: 1.875rem;
+        }
+
+        h3 {
+                font-size: 1.875rem;
+        }
+}
+
+@media (min-width: 1400px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+                max-width: 1680px !important;
+        }
+}

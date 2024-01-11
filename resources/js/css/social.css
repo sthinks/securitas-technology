@@ -1,0 +1,12 @@
+.social-list li {
+    list-style: none;
+    color: #031f30;
+    font-size: 25px;
+    padding: 15px 0px;
+}
+
+.social-list li svg {
+    color: #031f30;
+    font-size: 25px;
+    margin-right: 10px;
+}

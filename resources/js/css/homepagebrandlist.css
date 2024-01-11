@@ -1,0 +1,47 @@
+.homepagebrandlist-list ul {
+    list-style: none;
+    margin: 0px;
+    width: 100%;
+    height: 350px;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+.homepagebrandlist-list ul::-webkit-scrollbar {
+    width: 11px;
+}
+
+.homepagebrandlist-list ul {
+    scrollbar-width: thin;
+    scrollbar-color: black;
+}
+
+.homepagebrandlist-list ul::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.homepagebrandlist-list ul::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 6px;
+    border: 3px solid gray;
+}
+
+.homepagebrandlist-list ul li {
+    font-weight: 600;
+    margin: 0px;
+    color: #031f30;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+
+.homepagebrandlist-list ul li img {
+    margin: 15px 0px;
+}
+
+@media only screen and (max-width: 480px) {
+    .homepagebrandlist-list {
+        margin-top: 25px;
+    }
+}
